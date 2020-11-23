@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Intent App</string>
+    <string-array name="attendance">
+        <item>出席</item>
+        <item>欠席</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Button"
+            android:textAllCaps="false"
+            android:textSize="10sp" />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/textViewAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:text="Toolbar Sample"
+        android:textSize="30sp"></TextView>
+    <ImageView
+        android:id="@+id/imageViewCamera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
