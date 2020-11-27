@@ -11,6 +11,7 @@ import java.util.Date;
 import jp.kenschool.mycalendar.view.MyCalendarView;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String INTENT_SELECTED_DATE = "selectedDate";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
